@@ -248,19 +248,16 @@ section .container {
   line-height: 1.5;
 }
 .cc-gt-text ul {
+  margin: 0;
   padding: 0 !important;
 }
+
 .Javascript{
+  padding-left: 32px !important;
   position: relative;
+  border-left: 0.2px solid #d6c08d; ;
 }
-.Javascript::before {
-  content: "";
-  position: absolute;
-  width: 0.2px;
-  left: -45px;
-  height: 220px;
-  background-color: #d6c08d;
-}
+
 
 /* dự án */
 .fix{

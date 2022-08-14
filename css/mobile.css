@@ -53,28 +53,35 @@ a:link{
   flex-direction: column;
   gap: 16px;
 }
+.fix-container{
+  display: flex;
+}
+.nav-fix{
+  width: 20%;
+  height: 100%;
+  background-color: aqua;
+}
 
 .tt {
   display: flex;
-  margin-right: 245px;
+  margin-right: auto;
   flex-direction: row-reverse;
 }
 
 .ll {
-  padding-right: 32px;
-  margin-right: 102px;
+  margin-right: auto;
   flex-direction: row-reverse;
   display: flex;
 }
 
 .cc {
-  margin-right: 120px;
+  margin-right: auto;
   flex-direction: row-reverse;
   display: flex;
 }
 
 .da {
-  margin-right: 134px;
+  margin-right: auto;
   flex-direction: row-reverse;
   display: flex;
 }
